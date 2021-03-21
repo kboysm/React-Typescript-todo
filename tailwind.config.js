@@ -9,10 +9,13 @@ module.exports = {
       xl: '1440px',
     },
     colors: {
-      gray: colors.coolGray,
-      blue: colors.lightBlue,
+      black: colors.black,
+      white: colors.white,
+      gray: '#E5E7EB',
+      indigo: colors.indigo,
       red: colors.rose,
-      pink: colors.fuchsia,
+      yellow: colors.amber,
+      green: '#A7F3D0',
     },
     fontFamily: {
       sans: ['Graphik', 'sans-serif'],
