@@ -3,7 +3,6 @@ import { AddTodoForm } from './AddTodoForm';
 import { TodoList } from './TodoList';
 // import { Todo } from './types';
 
-
 const initialTodos: Array<Todo> = [
   { text: "리액트 기본 복습", complete: false},
   { text: "타입스크립트 생각", complete: true}
@@ -30,8 +29,10 @@ const App: React.FC = () => {
 
   return (
     <React.Fragment>
-     <TodoList todos={todos} toggleTodo={toggleTodo} />
-     <AddTodoForm addTodo={addTodo} />
+      <div className='container mx-auto'>
+        <TodoList todos={todos} toggleTodo={toggleTodo} />
+        <AddTodoForm addTodo={addTodo} />
+      </div>
     </React.Fragment>
   )
   
